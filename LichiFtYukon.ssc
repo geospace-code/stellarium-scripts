@@ -1,0 +1,19 @@
+LabelMgr.deleteAllLabels();
+core.setDate("2014-02-26T09:10:00","utc",true)
+core.setTimeRate(0)
+StelMovementMgr.zoomTo(38,0)
+core.setObserverLocation(-147.432975,65.1186367,500,0,"HST1")
+core.moveToRaDecJ2000(239.3,57.63,0)
+core.setDiskViewport(false)
+GridLinesMgr.setFlagAzimuthalGrid(true)
+GridLinesMgr.setFlagEquatorGrid(true)
+LandscapeMgr.setFlagCardinalsPoints(true)
+LandscapeMgr.setFlagLandscape(false)
+ConstellationMgr.setFlagLines(true)
+ConstellationMgr.setFlagLabels(true)
+
+//core.wait(2); //to allow FOV to settle
+
+//LabelMgr.labelScreen("HST1 El/Az (deg.)",400,380,true,20,"#ff0000")
+//LabelMgr.labelScreen(core.getViewAltitudeAngle(), 400, 400, true, 20, "#ff0000");
+//LabelMgr.labelScreen(core.getViewAzimuthAngle(),400,420,true,20,"#ff0000");

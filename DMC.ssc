@@ -1,0 +1,13 @@
+LabelMgr.deleteAllLabels();
+core.setDate("2013-01-29T21:06:19","utc",true)
+core.setTimeRate(0)
+StelMovementMgr.zoomTo(6.5,0)
+core.setObserverLocation(-5.94586166666,66.986243333,0,0,"DMC")
+core.moveToRaDecJ2000(339.1,58.2,0)
+core.setDiskViewport(false)
+GridLinesMgr.setFlagAzimuthalGrid(true)
+GridLinesMgr.setFlagEquatorGrid(true)
+LandscapeMgr.setFlagCardinalsPoints(true)
+LandscapeMgr.setFlagLandscape(false)
+ConstellationMgr.setFlagLines(true)
+ConstellationMgr.setFlagLabels(true)
