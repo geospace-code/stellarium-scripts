@@ -1,9 +1,9 @@
-LabelMgr.deleteAllLabels();
+core.setObserverLocation(-147.496908333,65.12657,208,0,"HST2", "Earth")
+core.moveToRaDecJ2000(180.626, 51.198,0)
 core.setDate("2013-04-14T08:54:07","utc",true)
 core.setTimeRate(0)
 StelMovementMgr.zoomTo(9.5,0)
-core.setObserverLocation(-147.496908333,65.12657,208,0,"HST2")
-core.moveToRaDecJ2000(180.626, 51.198,0)
+
 core.setDiskViewport(false)
 GridLinesMgr.setFlagAzimuthalGrid(true)
 GridLinesMgr.setFlagEquatorGrid(true)

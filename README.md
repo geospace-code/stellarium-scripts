@@ -1,6 +1,15 @@
 # Stellarium .ssc example scripts
 
-Stellarium can be used repeatably via ECMAScript [.ssc scripts](https://stellarium.org/doc/0.19/scripting.html).
+Stellarium can be used repeatably via ECMAScript
+[.ssc scripts](https://stellarium.org/doc/0.20/scripting.html).
+Stellarium has been steadily enhancing scripting capabilities and general capabilities, so there's often a benefit to running a newer version of Stellarium.
+
+## Usage
+
+From Stellarium, press F12 to open script load / run dialog.
+
+## Paramters
+
 Here are a few relevant parameters.
 
 FOV = field of view.
