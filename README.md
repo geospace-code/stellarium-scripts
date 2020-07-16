@@ -8,7 +8,7 @@ Stellarium has been steadily enhancing scripting capabilities and general capabi
 
 From Stellarium, press F12 to open script load / run dialog.
 
-## Paramters
+## Parameters
 
 Here are a few relevant parameters.
 
