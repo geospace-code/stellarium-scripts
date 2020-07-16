@@ -1,0 +1,21 @@
+-LabelMgr.deleteAllLabels()
+core.setObserverLocation(-147.479,65.126,0,0,"PokerFlatResearchRange, AK", "Earth")
+core.setDate("2015-10-27T12:23:19","utc",false)
+
+StelMovementMgr.zoomTo(180,0)
+core.moveToAltAzi(89.9, -20., 0.)  // alt=90.0 makes stellarium 0.20.2 jerky and weird
+core.selectObjectByName("Moon", false)
+
+core.setDiskViewport(false)
+GridLinesMgr.setFlagAzimuthalGrid(true)
+GridLinesMgr.setFlagMeridianLine(true)
+GridLinesMgr.setFlagEquatorGrid(false)
+SolarSystem.setFlagPlanets(true)
+LandscapeMgr.setFlagCardinalsPoints(true)
+LandscapeMgr.setFlagLandscape(true)
+ConstellationMgr.setFlagLines(false)
+ConstellationMgr.setFlagLabels(false)
+
+core.setTimeRate(0)
+core.setMinFps(5.0)
+SporadicMeteorMgr.setFlagShow(false)
