@@ -1,7 +1,7 @@
 # Stellarium .ssc example scripts
 
 Stellarium can be used repeatably via ECMAScript
-[.ssc scripts](https://stellarium.org/doc/0.20/scripting.html).
+[.ssc scripts](https://stellarium.org/doc/head/scripting.html).
 Stellarium has been steadily enhancing scripting capabilities and general capabilities, so there's often a benefit to running a newer version of Stellarium.
 
 ## Usage
